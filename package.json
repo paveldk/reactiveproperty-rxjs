@@ -1,6 +1,6 @@
 {
   "name": "reactiveproperty-rxjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ReactiveProperty and ReactiveCollection implementations for RxJS",
   "main": "index.js",
   "scripts": {
