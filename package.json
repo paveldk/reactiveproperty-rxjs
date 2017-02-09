@@ -1,0 +1,24 @@
+{
+  "name": "reactiveproperty-rxjs",
+  "version": "0.0.1",
+  "description": "ReactiveProperty and ReactiveCollection implementations for RxJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paveldk/reactiveproperty-rxjs.git"
+  },
+  "keywords": [
+    "reactiveproperty",
+    "reactivecollection",
+    "rxjs"
+  ],
+  "author": "Pavel Kolev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paveldk/reactiveproperty-rxjs/issues"
+  },
+  "homepage": "https://github.com/paveldk/reactiveproperty-rxjs#readme"
+}
