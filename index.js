@@ -1,13 +1,19 @@
 const ReactiveProperty = require("./reactive-property");
 
-let pesho = new ReactiveProperty(20);
+module.exports = () => {
+    ReactiveProperty
+};
 
-pesho.subscribe(x => {
-    console.log(x);
-});
+// 
 
-pesho.subscribe(x => {
-    console.log(x);
-});
+// let pesho = new ReactiveProperty(20);
 
-pesho.value = 10;
+// pesho.subscribe(x => {
+//     console.log(x);
+// });
+
+// pesho.subscribe(x => {
+//     console.log(x);
+// });
+
+// pesho.value = 10;
