@@ -1,6 +1,6 @@
 const ReactiveProperty = require("./reactive-property");
 
-module.exports = () => {
+module.exports = {
     ReactiveProperty
 };
 
