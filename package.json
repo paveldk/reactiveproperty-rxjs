@@ -1,6 +1,6 @@
 {
   "name": "reactiveproperty-rxjs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ReactiveProperty and ReactiveCollection implementations for RxJS",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/paveldk/reactiveproperty-rxjs/issues"
   },
-  "homepage": "https://github.com/paveldk/reactiveproperty-rxjs#readme"
+  "homepage": "https://github.com/paveldk/reactiveproperty-rxjs#readme",
+  "dependencies": {
+    "lodash": "4.17.4",
+    "rxjs": "5.0.3"
+  }
 }
