@@ -12,13 +12,13 @@ const MyClass {
 
 const myInstnace = new MyClass();
 
-myInstance.subscribe(x => console.log(`first subscriber: ${x}`)); // you can work with the prop as any other observable -> filer, map, merge etc.
+myInstance.myProperty.subscribe(x => console.log(`first subscriber: ${x}`)); // you can work with the prop as any other observable -> filer, map, merge etc.
 
-myInstance.value = 20; // this value will be propagated to all subscribers
+myInstance.myProperty.value = 20; // this value will be propagated to all subscribers
 
-myInstance.subscribe(x => console.log(`second subscriber: ${x}`));
+myInstance.myProperty.subscribe(x => console.log(`second subscriber: ${x}`));
 
-myInstance.value = 30;
+myInstance.myProperty.value = 30;
 // RESULT:
 first subscriber: 20
 second subscriber: 20
@@ -36,13 +36,13 @@ const MyClass {
 
 const myInstnace = new MyClass();
 
-myInstance.subscribe(x => console.log(`first subscriber: ${x}`)); // you can work with the prop as any other observable -> filer, map, merge etc.
+myInstance.myProperty.subscribe(x => console.log(`first subscriber: ${x}`)); // you can work with the prop as any other observable -> filer, map, merge etc.
 
-myInstance.value = 20; // this value will be propagated to all subscribers
+myInstance.myProperty.value = 20; // this value will be propagated to all subscribers
 
-myInstance.subscribe(x => console.log(`second subscriber: ${x}`));
+myInstance.myProperty.subscribe(x => console.log(`second subscriber: ${x}`));
 
-myInstance.value = 30;
+myInstance.myProperty.value = 30;
 // RESULT:
 first subscriber: 10
 first subscriber: 20
